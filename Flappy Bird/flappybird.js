@@ -66,7 +66,14 @@ function update() {
         ctx.clearRect(0, 0, gameCanvas.width, gameCanvas.height);
         ctx.fillStyle = "white";
         ctx.font = "24px sans-serif";
-        ctx.fillText("Flappy Bird", gameCanvas.width / 2 - 30, gameCanvas.height / 2);
+        ctx.fillText("Flappy Bird", gameCanvas.width / 2 - 300, gameCanvas.height / 3);
+        ctx.fillText("Arrow atas untuk memulai", gameCanvas.width / 2 - 300, gameCanvas.height / 2);
+        ctx.fillText("Spasi untuk menggerakan karakter", gameCanvas.width / 2 - 15, gameCanvas.height / 2);
+        // <h4>Username:
+        //     <script>
+        //         document.write(localStorage.getItem("name"));
+        //     </script>
+        // </h4>
         return;
     }
 
